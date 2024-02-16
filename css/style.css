@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&family=Teko:wght@600&display=swap');
+
+
+:root {
+    --font-A: 'Prompt', sans-serif; /** PRINCIPAL**/ 
+    --font-B: 'Teko', sans-serif;/** SECONDARY **/
+    --bgColor: #202020fa; 
+   }
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:var(--bgColor)
+}
+
+           h1 {
+       margin: 1rem;
+       font-family: var(--font-A);
+       display: flex;
+       justify-content: center;
+       margin: 10px 0 20px;
+   }
+   
+   
+   h2 {
+       display: flex;
+       justify-content: center;
+       font-family: var(--font-B);   
+       
+   }
+   
+   #container {
+       display: flex;
+       justify-content: space-around;
+       align-items: center; 
+
+   }
+   
+   #box1, #box2 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   }
+       #player1, #player2 {
+
+       width: 20rem;
+       height: 23rem;
+       margin-bottom: 3rem;
+
+   }
+   .button-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+
+   .image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+   #button {
+       background-color: rgb(4, 153, 245);
+       color: white;
+       width: 11rem;
+       height: 4rem;
+       border-radius: 60px;
+       font-size: 1.5rem;
+       font-family: var(--font-A);
+       padding: 0;
+       margin-bottom: 35px;
+   }
+
+   
+   #button:hover {
+       transition: .2s;
+       background-color: rgb(5, 75, 118);
+   
+   }
+   
+   h3 {
+       font-family: var(--font-B);
+       font-size: 6rem;
+       color: rgb(14, 178, 211);
+   }
+   
+   #resultIA {
+    font-size: 30px;
+    color: rgb(101, 209, 8);
+   }
+
+   p {
+
+    margin-top: 35px;
+    font-family: var(--font-B);
+    font-size: 3rem;
+   }
+
